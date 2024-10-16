@@ -8,14 +8,19 @@ This project focuses on building a Convolutional Neural Network (CNN) model to c
 - **CNN Architecture**: The model includes multiple convolutional layers, dropout layers to prevent overfitting, and dense layers to capture complex patterns in the data.
 - **MaxPooling**: Used to reduce the spatial dimensions of the images, making the model more efficient without losing significant information.
 - **Training & Validation**: Achieved 91.45% training accuracy and 89.80% validation accuracy after 30 epochs.
-- Training Details
+- **Training Details**
 The model was trained for 30 epochs, achieving significant improvements in both training and validation accuracy:
 
-Training Accuracy: 30.82% to 91.45%
-Validation Accuracy: 46.58% to 89.80%
-Loss: Consistently reduced throughout the training process.
-Example Training Log
+ **Training Accuracy:** 30.82% to 91.45%
+ 
+ **Validation Accuracy:** 46.58% to 89.80%
+ 
+ **Loss:** Consistently reduced throughout the training process
+ 
+ **Example Training Log**
+ 
 Epoch 1/30: Training Accuracy: 30.82% | Validation Accuracy: 46.58% | Validation Loss: 1.1972
+
 Epoch 30/30: Training Accuracy: 91.45% | Validation Accuracy: 89.80% | Validation Loss: 0.3411
 
 - **Model Deployment**: A function has been implemented for classifying new flower images based on the trained model.
