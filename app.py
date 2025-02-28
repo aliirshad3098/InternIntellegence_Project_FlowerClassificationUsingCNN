@@ -33,7 +33,7 @@ def classify_img(image):
         predictions = model.predict(input_image_exp_dim)
         max_prob = np.argmax(predictions)
         confidence_score = np.max(predictions)
-        threshold = 0.8
+        threshold = 0.9
         if confidence_score < threshold:
             outcome = "The image is not a flower."
         else:
